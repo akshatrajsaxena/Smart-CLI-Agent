@@ -1,0 +1,19 @@
+# Ignore virtual environments
+.env
+.venv
+
+# Ignore logs
+logs/
+**/logs/
+*.log
+
+# Ignore model checkpoints (optional: you can choose to track final models via LFS)
+**/checkpoint-*/
+
+# Ignore system files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/

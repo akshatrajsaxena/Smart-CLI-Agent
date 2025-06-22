@@ -1,0 +1,2398 @@
+[
+  {
+    "instruction": "How do I change the current directory to /var/log?",
+    "output": "cd /var/log"
+  },
+  {
+    "instruction": "How do I print the current working directory?",
+    "output": "pwd"
+  },
+  {
+    "instruction": "How do I list all files (including hidden) in long format?",
+    "output": "ls -la"
+  },
+  {
+    "instruction": "How do I copy file.txt to the /backup directory?",
+    "output": "cp file.txt /backup"
+  },
+  {
+    "instruction": "How do I rename or moves oldname.txt to newname.txt?",
+    "output": "mv oldname.txt newname.txt"
+  },
+  {
+    "instruction": "How do I Recursively deletes directory and its contents?",
+    "output": "rm -rf directory"
+  },
+  {
+    "instruction": "How do I create an empty file named newfile.txt or updates its timestamp?",
+    "output": "touch newfile.txt"
+  },
+  {
+    "instruction": "How do I create directory newdir with parent directories as needed?",
+    "output": "mkdir -p /path/to/newdir"
+  },
+  {
+    "instruction": "How do I display the contents of logfile.txt?",
+    "output": "cat logfile.txt"
+  },
+  {
+    "instruction": "How do I view the  largefile.txt with pagination?",
+    "output": "less largefile.txt"
+  },
+  {
+    "instruction": "How do I display the first 5 lines of access.log?",
+    "output": "head -n 5 access.log"
+  },
+  {
+    "instruction": "How do I display the last 10 lines of error.log?",
+    "output": "tail -n 10 error.log"
+  },
+  {
+    "instruction": "How do I display all system information (kernel, hostname, etc.)?",
+    "output": "uname -a"
+  },
+  {
+    "instruction": "How do I display real-time system processes and resource usage?",
+    "output": "top"
+  },
+  {
+    "instruction": "How do I show disk usage in human-readable format?",
+    "output": "df -h"
+  },
+  {
+    "instruction": "How do I display memory usage in megabytes?",
+    "output": "free -m"
+  },
+  {
+    "instruction": "How do I set script.sh to executable for all, readable/writable for owner?",
+    "output": "chmod 755 script.sh"
+  },
+  {
+    "instruction": "How do I change ownership of file.txt to user and group?",
+    "output": "chown user:group file.txt"
+  },
+  {
+    "instruction": "How do I Updates package list for upgrades on Debian-based systems?",
+    "output": "apt update"
+  },
+  {
+    "instruction": "How do I install the nginx web server on Debian-based systems?",
+    "output": "apt install nginx"
+  },
+  {
+    "instruction": "How do I Updates package list for upgrades on CentOS/RHEL systems?",
+    "output": "yum update"
+  },
+  {
+    "instruction": "How do I install Python 3 on Fedora-based systems?",
+    "output": "dnf install python3"
+  },
+  {
+    "instruction": "How do I send 4 ICMP echo requests to google.com to check connectivity?",
+    "output": "ping -c 4 google.com"
+  },
+  {
+    "instruction": "How do I display network interface configuration?",
+    "output": "ifconfig"
+  },
+  {
+    "instruction": "How do I list listening ports and associated processes?",
+    "output": "netstat -tulpn"
+  },
+  {
+    "instruction": "How do I display the current user's username?",
+    "output": "whoami"
+  },
+  {
+    "instruction": "How do I show user and group IDs for the current user?",
+    "output": "id"
+  },
+  {
+    "instruction": "How do I Interactively add a new user to the system?",
+    "output": "adduser newuser"
+  },
+  {
+    "instruction": "How do I list all running processes with detailed information?",
+    "output": "ps aux"
+  },
+  {
+    "instruction": "How do I Forcefully terminates the process with PID 1234?",
+    "output": "kill -9 1234"
+  },
+  {
+    "instruction": "How do I Interactive process viewer with enhanced UI?",
+    "output": "htop"
+  },
+  {
+    "instruction": "How do I open file.txt in the Vim text editor?",
+    "output": "vim file.txt"
+  },
+  {
+    "instruction": "How do I open config.conf in the Nano text editor?",
+    "output": "nano config.conf"
+  },
+  {
+    "instruction": "How do I change to the current user's home directory?",
+    "output": "cd ~"
+  },
+  {
+    "instruction": "How do I Recursively list all files and subdirectories?",
+    "output": "ls -R"
+  },
+  {
+    "instruction": "How do I Recursively copy dir1 to dir2?",
+    "output": "cp -r dir1 dir2"
+  },
+  {
+    "instruction": "How do I Moves dir1 to the /archive directory?",
+    "output": "mv dir1 /archive"
+  },
+  {
+    "instruction": "How do I Deletes file.txt?",
+    "output": "rm file.txt"
+  },
+  {
+    "instruction": "How do I Concatenates and display contents of file1.txt and file2.txt?",
+    "output": "cat file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I view the  logfile.txt with line numbers?",
+    "output": "less -N logfile.txt"
+  },
+  {
+    "instruction": "How do I display the first 10 lines of access.log?",
+    "output": "head access.log"
+  },
+  {
+    "instruction": "How do I monitor error.log in real-time?",
+    "output": "tail -f error.log"
+  },
+  {
+    "instruction": "How do I display the kernel release version?",
+    "output": "uname -r"
+  },
+  {
+    "instruction": "How do I show disk usage for the root filesystem?",
+    "output": "df /"
+  },
+  {
+    "instruction": "How do I display memory usage in human-readable format?",
+    "output": "free -h"
+  },
+  {
+    "instruction": "How do I Makes script.sh executable by adding execute permission?",
+    "output": "chmod +x script.sh"
+  },
+  {
+    "instruction": "How do I Recursively change ownership of /data to user and group?",
+    "output": "chown -R user:group /data"
+  },
+  {
+    "instruction": "How do I Upgrades installed packages to their latest versions on Debian-based systems?",
+    "output": "apt upgrade"
+  },
+  {
+    "instruction": "How do I install the Apache web server on CentOS/RHEL systems?",
+    "output": "yum install httpd"
+  },
+  {
+    "instruction": "How do I Updates package list and upgrades packages on Fedora-based systems?",
+    "output": "dnf update"
+  },
+  {
+    "instruction": "How do I send ICMP echo requests to Google's public DNS server?",
+    "output": "ping 8.8.8.8"
+  },
+  {
+    "instruction": "How do I display configuration for the eth0 network interface?",
+    "output": "ifconfig eth0"
+  },
+  {
+    "instruction": "How do I list all active network connections and ports?",
+    "output": "netstat -an"
+  },
+  {
+    "instruction": "How do I display the current user's username?",
+    "output": "whoami"
+  },
+  {
+    "instruction": "How do I show user and group IDs for newuser?",
+    "output": "id newuser"
+  },
+  {
+    "instruction": "How do I add testuser with a specified home directory?",
+    "output": "adduser --home /home/testuser testuser"
+  },
+  {
+    "instruction": "How do I list all processes with full details?",
+    "output": "ps -ef"
+  },
+  {
+    "instruction": "How do I Terminates the process with PID 1234 gracefully?",
+    "output": "kill 1234"
+  },
+  {
+    "instruction": "How do I show processes for a specific user in htop?",
+    "output": "htop -u user"
+  },
+  {
+    "instruction": "How do I open file.txt in Vim at line 10?",
+    "output": "vim +10 file.txt"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano with line numbers?",
+    "output": "nano -l config.conf"
+  },
+  {
+    "instruction": "How do I Moves up one directory level?",
+    "output": "cd .."
+  },
+  {
+    "instruction": "How do I list files in long format with human-readable sizes?",
+    "output": "ls -lh"
+  },
+  {
+    "instruction": "How do I create a backup copy of file.txt as file.bak?",
+    "output": "cp file.txt file.bak"
+  },
+  {
+    "instruction": "How do I Moves file.txt to the /tmp directory?",
+    "output": "mv file.txt /tmp"
+  },
+  {
+    "instruction": "How do I Deletes file.txt with interactive confirmation?",
+    "output": "rm -i file.txt"
+  },
+  {
+    "instruction": "How do I display script.sh with line numbers?",
+    "output": "cat -n script.sh"
+  },
+  {
+    "instruction": "How do I open logfile.txt in less, starting at the end?",
+    "output": "less +G logfile.txt"
+  },
+  {
+    "instruction": "How do I display the first 20 lines of access.log?",
+    "output": "head -n 20 access.log"
+  },
+  {
+    "instruction": "How do I display error.log starting from the second line?",
+    "output": "tail -n +2 error.log"
+  },
+  {
+    "instruction": "How do I return to the previous directory?",
+    "output": "cd -"
+  },
+  {
+    "instruction": "How do I list files sorted by modification time, newest first?",
+    "output": "ls -t"
+  },
+  {
+    "instruction": "How do I print the physical current directory, resolving symlinks?",
+    "output": "pwd -P"
+  },
+  {
+    "instruction": "How do I copy file.txt to /backup, preserving timestamps and permissions?",
+    "output": "cp -p file.txt /backup"
+  },
+  {
+    "instruction": "How do I Moves file.txt to /tmp with interactive prompt for overwrite?",
+    "output": "mv -i file.txt /tmp"
+  },
+  {
+    "instruction": "How do I Recursively deletes dir1 and its contents?",
+    "output": "rm -r dir1"
+  },
+  {
+    "instruction": "How do I set file.txt's timestamp to May 21, 2025, 12:00?",
+    "output": "touch -t 202505211200 file.txt"
+  },
+  {
+    "instruction": "How do I create a directory named newdir?",
+    "output": "mkdir newdir"
+  },
+  {
+    "instruction": "How do I create or overwrite newfile.txt with input from stdin (Ctrl+D to end)?",
+    "output": "cat > newfile.txt"
+  },
+  {
+    "instruction": "How do I monitor logfile.txt in less, similar to tail -f?",
+    "output": "less +F logfile.txt"
+  },
+  {
+    "instruction": "How do I display the first 100 bytes of file.txt?",
+    "output": "head -c 100 file.txt"
+  },
+  {
+    "instruction": "How do I display the last 5 lines of access.log?",
+    "output": "tail -n 5 access.log"
+  },
+  {
+    "instruction": "How do I display the machine hardware architecture?",
+    "output": "uname -m"
+  },
+  {
+    "instruction": "How do I run top for one iteration and exits?",
+    "output": "top -n 1"
+  },
+  {
+    "instruction": "How do I show disk usage with filesystem types?",
+    "output": "df -T"
+  },
+  {
+    "instruction": "How do I display total memory usage, including swap?",
+    "output": "free -t"
+  },
+  {
+    "instruction": "How do I set file.txt to read/write for owner, read-only for others?",
+    "output": "chmod 644 file.txt"
+  },
+  {
+    "instruction": "How do I change ownership of symlink to user without affecting the target?",
+    "output": "chown -h user symlink"
+  },
+  {
+    "instruction": "How do I remove unused dependencies on Debian-based systems?",
+    "output": "apt autoremove"
+  },
+  {
+    "instruction": "How do I remove nginx and its configuration files on Debian-based systems?",
+    "output": "apt purge nginx"
+  },
+  {
+    "instruction": "How do I Uninstall the Apache web server on CentOS/RHEL systems?",
+    "output": "yum remove httpd"
+  },
+  {
+    "instruction": "How do I Upgrades all packages to the latest versions on Fedora-based systems?",
+    "output": "dnf upgrade"
+  },
+  {
+    "instruction": "How do I send ICMP echo requests to google.com every 0.5 seconds?",
+    "output": "ping -i 0.5 google.com"
+  },
+  {
+    "instruction": "How do I Enables the eth0 network interface?",
+    "output": "ifconfig eth0 up"
+  },
+  {
+    "instruction": "How do I display network interface statistics?",
+    "output": "netstat -i"
+  },
+  {
+    "instruction": "How do I list currently logged-in users?",
+    "output": "who"
+  },
+  {
+    "instruction": "How do I change the password for newuser?",
+    "output": "passwd newuser"
+  },
+  {
+    "instruction": "How do I Deletes testuser and their home directory?",
+    "output": "userdel -r testuser"
+  },
+  {
+    "instruction": "How do I list processes with the command name nginx?",
+    "output": "ps -C nginx"
+  },
+  {
+    "instruction": "How do I Terminates all nginx processes?",
+    "output": "killall nginx"
+  },
+  {
+    "instruction": "How do I run htop with a 0.5-second refresh interval?",
+    "output": "htop -d 5"
+  },
+  {
+    "instruction": "How do I open file.txt in Vim in read-only mode?",
+    "output": "vim -R file.txt"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano with constant cursor position display?",
+    "output": "nano -c config.conf"
+  },
+  {
+    "instruction": "How do I change the current directory to /etc?",
+    "output": "cd /etc"
+  },
+  {
+    "instruction": "How do I list files in a single column?",
+    "output": "ls -1"
+  },
+  {
+    "instruction": "How do I copy file.txt to /backup only if newer or missing?",
+    "output": "cp -u file.txt /backup"
+  },
+  {
+    "instruction": "How do I Moves file.txt to /tmp without overwriting existing files?",
+    "output": "mv -n file.txt /tmp"
+  },
+  {
+    "instruction": "How do I Deletes file.txt with verbose output?",
+    "output": "rm -v file.txt"
+  },
+  {
+    "instruction": "How do I create script.sh with input until 'EOF' is entered?",
+    "output": "cat << EOF > script.sh"
+  },
+  {
+    "instruction": "How do I view the  logfile.txt in less with case-insensitive search?",
+    "output": "less -i logfile.txt"
+  },
+  {
+    "instruction": "How do I display all but the last 5 lines of access.log?",
+    "output": "head -n -5 access.log"
+  },
+  {
+    "instruction": "How do I display the last 3 lines of file1.txt and file2.txt without headers?",
+    "output": "tail -q -n 3 file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I display the system's hostname?",
+    "output": "uname -n"
+  },
+  {
+    "instruction": "How do I show inode usage for filesystems?",
+    "output": "df -i"
+  },
+  {
+    "instruction": "How do I Recursively set /data to rwx for owner, rx for group, none for others?",
+    "output": "chmod -R 750 /data"
+  },
+  {
+    "instruction": "How do I change group ownership of file.txt to group?",
+    "output": "chown :group file.txt"
+  },
+  {
+    "instruction": "How do I Clears local repository of retrieved package files on Debian-based systems?",
+    "output": "apt clean"
+  },
+  {
+    "instruction": "How do I check for available package updates on CentOS/RHEL systems?",
+    "output": "yum check-update"
+  },
+  {
+    "instruction": "How do I remove unused dependencies on Fedora-based systems?",
+    "output": "dnf autoremove"
+  },
+  {
+    "instruction": "How do I send 2 ICMP echo requests to the IP 192.168.1.1?",
+    "output": "ping -c 2 192.168.1.1"
+  },
+  {
+    "instruction": "How do I Disables the eth0 network interface?",
+    "output": "ifconfig eth0 down"
+  },
+  {
+    "instruction": "How do I display the kernel routing table?",
+    "output": "netstat -r"
+  },
+  {
+    "instruction": "How do I show detailed information about logged-in users?",
+    "output": "w"
+  },
+  {
+    "instruction": "How do I add newuser to the sudo group?",
+    "output": "usermod -aG sudo newuser"
+  },
+  {
+    "instruction": "How do I create a new group named newgroup?",
+    "output": "groupadd newgroup"
+  },
+  {
+    "instruction": "How do I list processes owned by user?",
+    "output": "ps -u user"
+  },
+  {
+    "instruction": "How do I Terminates all processes owned by user?",
+    "output": "pkill -u user"
+  },
+  {
+    "instruction": "How do I run htop with a tree view of processes?",
+    "output": "htop -t"
+  },
+  {
+    "instruction": "How do I open file.txt in Vim with line numbers enabled?",
+    "output": "vim -c 'set number' file.txt"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano without wrapping long lines?",
+    "output": "nano -w config.conf"
+  },
+  {
+    "instruction": "How do I change the current directory to /usr/local/bin?",
+    "output": "cd /usr/local/bin"
+  },
+  {
+    "instruction": "How do I list files sorted by size, largest first?",
+    "output": "ls -S"
+  },
+  {
+    "instruction": "How do I copy file.txt to /backup with verbose output?",
+    "output": "cp -v file.txt /backup"
+  },
+  {
+    "instruction": "How do I Moves dir1 to /archive only if newer or missing?",
+    "output": "mv -u dir1 /archive"
+  },
+  {
+    "instruction": "How do I Updates the access time of file.txt?",
+    "output": "touch -a file.txt"
+  },
+  {
+    "instruction": "How do I display file.txt, suppressing multiple blank lines?",
+    "output": "cat -s file.txt"
+  },
+  {
+    "instruction": "How do I view the  logfile.txt in less with verbose status?",
+    "output": "less -M logfile.txt"
+  },
+  {
+    "instruction": "How do I display the first 2 lines of file1.txt and file2.txt without headers?",
+    "output": "head -q -n 2 file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I display the last 2 lines of error.log with file headers?",
+    "output": "tail -v -n 2 error.log"
+  },
+  {
+    "instruction": "How do I display memory usage every 2 seconds?",
+    "output": "free -s 2"
+  },
+  {
+    "instruction": "How do I add execute permission for the owner of script.sh?",
+    "output": "chmod u+x script.sh"
+  },
+  {
+    "instruction": "How do I Recursively change ownership of /var/www to user and group?",
+    "output": "chown -R user:group /var/www"
+  },
+  {
+    "instruction": "How do I list all installed packages on Debian-based systems?",
+    "output": "apt list --installed"
+  },
+  {
+    "instruction": "How do I display the transaction history of yum on CentOS/RHEL systems?",
+    "output": "yum history"
+  },
+  {
+    "instruction": "How do I find which package provides /bin/bash on Fedora-based systems?",
+    "output": "dnf provides /bin/bash"
+  },
+  {
+    "instruction": "How do I send ICMP echo requests to google.com with 100-byte packets?",
+    "output": "ping -s 100 google.com"
+  },
+  {
+    "instruction": "How do I display network protocol statistics?",
+    "output": "netstat -s"
+  },
+  {
+    "instruction": "How do I show a list of recent user logins?",
+    "output": "last"
+  },
+  {
+    "instruction": "How do I display information about the process with PID 1234?",
+    "output": "ps -p 1234"
+  },
+  {
+    "instruction": "How do I open file.bin in Vim in binary mode?",
+    "output": "vim -b file.bin"
+  },
+  {
+    "instruction": "How do I change the current directory to /tmp?",
+    "output": "cd /tmp"
+  },
+  {
+    "instruction": "How do I list files with indicators (e.g., / for directories, * for executables)?",
+    "output": "ls -F"
+  },
+  {
+    "instruction": "How do I print the logical current directory, preserving symlinks?",
+    "output": "pwd -L"
+  },
+  {
+    "instruction": "How do I list files sorted by file extension?",
+    "output": "ls -X"
+  },
+  {
+    "instruction": "How do I change the current directory to /usr/share?",
+    "output": "cd /usr/share"
+  },
+  {
+    "instruction": "How do I list files with colorized output based on file type?",
+    "output": "ls --color=auto"
+  },
+  {
+    "instruction": "How do I list files with their inode numbers?",
+    "output": "ls -i"
+  },
+  {
+    "instruction": "How do I change to the home directory of user?",
+    "output": "cd ~user"
+  },
+  {
+    "instruction": "How do I list files in reverse order?",
+    "output": "ls -r"
+  },
+  {
+    "instruction": "How do I list only directories in the current directory?",
+    "output": "ls -d */"
+  },
+  {
+    "instruction": "How do I copy dir1 to /backup, preserving structure and attributes?",
+    "output": "cp -a dir1 /backup"
+  },
+  {
+    "instruction": "How do I Moves file.txt to /tmp, creating a backup if it exists?",
+    "output": "mv -b file.txt /tmp"
+  },
+  {
+    "instruction": "How do I Deletes file.txt without prompting?",
+    "output": "rm -f file.txt"
+  },
+  {
+    "instruction": "How do I Updates the timestamp of file.txt without creating it if it doesn't exist?",
+    "output": "touch -c file.txt"
+  },
+  {
+    "instruction": "How do I create secure_dir with rwx permissions for owner only?",
+    "output": "mkdir -m 700 secure_dir"
+  },
+  {
+    "instruction": "How do I create a hard link file2.txt to file1.txt?",
+    "output": "cp -l file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I Moves file.txt to /tmp, overwriting without prompting?",
+    "output": "mv -f file.txt /tmp"
+  },
+  {
+    "instruction": "How do I remove the empty directory empty_dir?",
+    "output": "rmdir empty_dir"
+  },
+  {
+    "instruction": "How do I Updates the modification time of file.txt?",
+    "output": "touch -m file.txt"
+  },
+  {
+    "instruction": "How do I create a symbolic link link.txt to file1.txt?",
+    "output": "cp -s file1.txt link.txt"
+  },
+  {
+    "instruction": "How do I display file.txt with non-blank lines numbered?",
+    "output": "cat -b file.txt"
+  },
+  {
+    "instruction": "How do I view the  logfile.txt in less without wrapping long lines?",
+    "output": "less -S logfile.txt"
+  },
+  {
+    "instruction": "How do I display the first 10 lines of access.log with a file header?",
+    "output": "head -v access.log"
+  },
+  {
+    "instruction": "How do I display the last 100 bytes of error.log?",
+    "output": "tail -c 100 error.log"
+  },
+  {
+    "instruction": "How do I display file.txt with end-of-line markers ($) and non-printable characters?",
+    "output": "cat -e file.txt"
+  },
+  {
+    "instruction": "How do I view the  logfile.txt in less, preserving raw control characters?",
+    "output": "less -r logfile.txt"
+  },
+  {
+    "instruction": "How do I display the first 3 lines of file1.txt and file2.txt with headers?",
+    "output": "head -n 3 file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I monitor error.log for new lines, starting with no initial output?",
+    "output": "tail -n 0 -f error.log"
+  },
+  {
+    "instruction": "How do I display file.txt with tabs shown as ^I?",
+    "output": "cat -t file.txt"
+  },
+  {
+    "instruction": "How do I view the  logfile.txt in less, treating backspaces as non-destructive?",
+    "output": "less -u logfile.txt"
+  },
+  {
+    "instruction": "How do I display system uptime and load averages?",
+    "output": "uptime"
+  },
+  {
+    "instruction": "How do I report virtual memory statistics every 2 seconds for 5 iterations?",
+    "output": "vmstat 2 5"
+  },
+  {
+    "instruction": "How do I show extended I/O statistics every second for 3 iterations?",
+    "output": "iostat -x 1 3"
+  },
+  {
+    "instruction": "How do I display CPU architecture information?",
+    "output": "lscpu"
+  },
+  {
+    "instruction": "How do I list block devices and their mount points?",
+    "output": "lsblk"
+  },
+  {
+    "instruction": "How do I display detailed memory hardware information?",
+    "output": "dmidecode -t memory"
+  },
+  {
+    "instruction": "How do I add write permission for the group on file.txt?",
+    "output": "chmod g+w file.txt"
+  },
+  {
+    "instruction": "How do I change the owner of file.txt to user?",
+    "output": "chown user file.txt"
+  },
+  {
+    "instruction": "How do I remove read permission for others on file.txt?",
+    "output": "chmod o-r file.txt"
+  },
+  {
+    "instruction": "How do I Recursively change group ownership of /data to group?",
+    "output": "chown -R :group /data"
+  },
+  {
+    "instruction": "How do I Searches for nginx packages in Debian-based repositories?",
+    "output": "apt search nginx"
+  },
+  {
+    "instruction": "How do I display detailed information about the httpd package on CentOS/RHEL?",
+    "output": "yum info httpd"
+  },
+  {
+    "instruction": "How do I remove cached data and metadata on Fedora-based systems?",
+    "output": "dnf clean all"
+  },
+  {
+    "instruction": "How do I display detailed information about the python3 package on Debian-based systems?",
+    "output": "apt show python3"
+  },
+  {
+    "instruction": "How do I install the Development Tools package group on CentOS/RHEL?",
+    "output": "yum groupinstall 'Development Tools'"
+  },
+  {
+    "instruction": "How do I list all installed packages on Fedora-based systems?",
+    "output": "dnf repoquery --installed"
+  },
+  {
+    "instruction": "How do I show dependencies for the nginx package on Debian-based systems?",
+    "output": "apt depends nginx"
+  },
+  {
+    "instruction": "How do I find which package provides /usr/bin/python3 on CentOS/RHEL?",
+    "output": "yum provides /usr/bin/python3"
+  },
+  {
+    "instruction": "How do I list available package groups on Fedora-based systems?",
+    "output": "dnf group list"
+  },
+  {
+    "instruction": "How do I show the installation status and priority of nginx on Debian-based systems?",
+    "output": "apt policy nginx"
+  },
+  {
+    "instruction": "How do I display IP addresses and interface details?",
+    "output": "ip addr show"
+  },
+  {
+    "instruction": "How do I list listening TCP and UDP sockets with numeric addresses?",
+    "output": "ss -tulwn"
+  },
+  {
+    "instruction": "How do I display the ARP cache without resolving hostnames?",
+    "output": "arp -n"
+  },
+  {
+    "instruction": "How do I display the routing table with numeric addresses?",
+    "output": "route -n"
+  },
+  {
+    "instruction": "How do I list network interfaces and their status?",
+    "output": "ip link show"
+  },
+  {
+    "instruction": "How do I list all sockets with associated processes?",
+    "output": "ss -anp"
+  },
+  {
+    "instruction": "How do I Traces the route packets take to google.com?",
+    "output": "traceroute google.com"
+  },
+  {
+    "instruction": "How do I show the time of the last system boot?",
+    "output": "who -b"
+  },
+  {
+    "instruction": "How do I set the GECOS comment field for user to 'Full Name'?",
+    "output": "usermod -c 'Full Name' user"
+  },
+  {
+    "instruction": "How do I Deletes the group oldgroup?",
+    "output": "groupdel oldgroup"
+  },
+  {
+    "instruction": "How do I Locks the password for user, disabling login?",
+    "output": "passwd -l user"
+  },
+  {
+    "instruction": "How do I set the account expiration date for user to Dec 31, 2025?",
+    "output": "chage -E 2025-12-31 user"
+  },
+  {
+    "instruction": "How do I display information about user, including login and mail status?",
+    "output": "finger user"
+  },
+  {
+    "instruction": "How do I run command with a nice value of 10 (lower priority)?",
+    "output": "nice -n 10 command"
+  },
+  {
+    "instruction": "How do I change the priority of process with PID 1234 to 5?",
+    "output": "renice 5 1234"
+  },
+  {
+    "instruction": "How do I display processes owned by user in top?",
+    "output": "top -u user"
+  },
+  {
+    "instruction": "How do I display a tree of processes with PIDs?",
+    "output": "pstree -p"
+  },
+  {
+    "instruction": "How do I send the SIGTERM signal to the process with PID 1234?",
+    "output": "kill -SIGTERM 1234"
+  },
+  {
+    "instruction": "How do I list PIDs of processes named nginx?",
+    "output": "pgrep nginx"
+  },
+  {
+    "instruction": "How do I open file.txt in the Emacs text editor?",
+    "output": "emacs file.txt"
+  },
+  {
+    "instruction": "How do I open file1.txt and file2.txt in Vim with a horizontal split?",
+    "output": "vim -o file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano, creating backups on save?",
+    "output": "nano -B config.conf"
+  },
+  {
+    "instruction": "How do I open file.txt in Emacs in terminal (non-GUI) mode?",
+    "output": "emacs -nw file.txt"
+  },
+  {
+    "instruction": "How do I list block devices with filesystem types and UUIDs?",
+    "output": "lsblk -f"
+  },
+  {
+    "instruction": "How do I display CPU information in a tabular format?",
+    "output": "lscpu -e"
+  },
+  {
+    "instruction": "How do I display a summary of virtual memory statistics?",
+    "output": "vmstat -s"
+  },
+  {
+    "instruction": "How do I remove execute permission for the group on script.sh?",
+    "output": "chmod g-x script.sh"
+  },
+  {
+    "instruction": "How do I Recursively change ownership of symlink and its target to user?",
+    "output": "chown -hR user symlink"
+  },
+  {
+    "instruction": "How do I display the IP routing table?",
+    "output": "ip route show"
+  },
+  {
+    "instruction": "How do I list listening TCP and UDP sockets?",
+    "output": "ss -tuln"
+  },
+  {
+    "instruction": "How do I create a symbolic link link.conf to /etc/config.conf?",
+    "output": "ln -s /etc/config.conf link.conf"
+  },
+  {
+    "instruction": "How do I create a hard link file2.txt to file1.txt?",
+    "output": "ln file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I display file.txt with non-printable characters visible?",
+    "output": "cat -v file.txt"
+  },
+  {
+    "instruction": "How do I view the  logfile.txt in less without clearing the screen on exit?",
+    "output": "less -X logfile.txt"
+  },
+  {
+    "instruction": "How do I list logged-in users with idle time and PID?",
+    "output": "who -u"
+  },
+  {
+    "instruction": "How do I display password and account aging information for user?",
+    "output": "chage -l user"
+  },
+  {
+    "instruction": "How do I run top in batch mode for one iteration?",
+    "output": "top -b -n 1"
+  },
+  {
+    "instruction": "How do I Forcefully terminates all nginx processes?",
+    "output": "pkill -9 nginx"
+  },
+  {
+    "instruction": "How do I open file1.txt and file2.txt in Vim with a vertical split?",
+    "output": "vim -O file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano, converting tabs to spaces?",
+    "output": "nano -E config.conf"
+  },
+  {
+    "instruction": "How do I display the total size of /var/log in human-readable format?",
+    "output": "du -sh /var/log"
+  },
+  {
+    "instruction": "How do I find all files with .log extension in /var?",
+    "output": "find /var -name '*.log'"
+  },
+  {
+    "instruction": "How do I list loaded kernel modules?",
+    "output": "lsmod"
+  },
+  {
+    "instruction": "How do I display the operating system name?",
+    "output": "uname -o"
+  },
+  {
+    "instruction": "How do I set file.txt to read/write for owner only?",
+    "output": "chmod 600 file.txt"
+  },
+  {
+    "instruction": "How do I change owner of file.txt to user with verbose output?",
+    "output": "chown -v user file.txt"
+  },
+  {
+    "instruction": "How do I Assigns IP address 192.168.1.101/24 to eth0?",
+    "output": "ip addr add 192.168.1.101/24 dev eth0"
+  },
+  {
+    "instruction": "How do I Unlocks the password for user, enabling login?",
+    "output": "passwd -u user"
+  },
+  {
+    "instruction": "How do I send the SIGKILL signal to the process with PID 1234?",
+    "output": "kill -SIGKILL 1234"
+  },
+  {
+    "instruction": "How do I open file.txt in Emacs without loading the init file?",
+    "output": "emacs --no-init-file file.txt"
+  },
+  {
+    "instruction": "How do I change to /var/log and add current directory to stack?",
+    "output": "pushd /var/log"
+  },
+  {
+    "instruction": "How do I return to the directory at the top of the stack?",
+    "output": "popd"
+  },
+  {
+    "instruction": "How do I display the directory stack with indices vertically?",
+    "output": "dirs -v"
+  },
+  {
+    "instruction": "How do I list extended attributes of file.txt?",
+    "output": "lsattr file.txt"
+  },
+  {
+    "instruction": "How do I set the immutable attribute on file.txt, preventing modifications?",
+    "output": "chattr +i file.txt"
+  },
+  {
+    "instruction": "How do I Grants user read and write permissions on file.txt using ACL?",
+    "output": "setfacl -m u:user:rw file.txt"
+  },
+  {
+    "instruction": "How do I display the access control list (ACL) for file.txt?",
+    "output": "getfacl file.txt"
+  },
+  {
+    "instruction": "How do I display the contents of compressed logfile.gz without uncompressing?",
+    "output": "zcat logfile.gz"
+  },
+  {
+    "instruction": "How do I view the  compressed logfile.gz with pagination?",
+    "output": "zless logfile.gz"
+  },
+  {
+    "instruction": "How do I dump file.bin in octal format with ASCII representation?",
+    "output": "od -c file.bin"
+  },
+  {
+    "instruction": "How do I extract printable strings from the binary /bin/ls?",
+    "output": "strings /bin/ls"
+  },
+  {
+    "instruction": "How do I display file.bin in hexadecimal and ASCII format?",
+    "output": "hexdump -C file.bin"
+  },
+  {
+    "instruction": "How do I display detailed file status, including timestamps and permissions?",
+    "output": "stat file.txt"
+  },
+  {
+    "instruction": "How do I list processes using port 80?",
+    "output": "lsof -i :80"
+  },
+  {
+    "instruction": "How do I capture packets on the eth0 interface?",
+    "output": "tcpdump -i eth0"
+  },
+  {
+    "instruction": "How do I query DNS for google.com's IP address?",
+    "output": "nslookup google.com"
+  },
+  {
+    "instruction": "How do I perform a detailed DNS lookup for google.com?",
+    "output": "dig google.com"
+  },
+  {
+    "instruction": "How do I list shared memory segments?",
+    "output": "ipcs -m"
+  },
+  {
+    "instruction": "How do I report CPU usage every second for 3 iterations?",
+    "output": "sar -u 1 3"
+  },
+  {
+    "instruction": "How do I display kernel messages with human-readable timestamps?",
+    "output": "dmesg -T"
+  },
+  {
+    "instruction": "How do I list hardware device information?",
+    "output": "lsdev"
+  },
+  {
+    "instruction": "How do I change the group ownership of file.txt to group?",
+    "output": "chgrp group file.txt"
+  },
+  {
+    "instruction": "How do I Recursively change group ownership of /data to group?",
+    "output": "chgrp -R group /data"
+  },
+  {
+    "instruction": "How do I remove all ACL entries from file.txt, restoring default permissions?",
+    "output": "setfacl -b file.txt"
+  },
+  {
+    "instruction": "How do I download the source code for the nginx package on Debian-based systems?",
+    "output": "apt source nginx"
+  },
+  {
+    "instruction": "How do I Reinstall the httpd package on CentOS/RHEL systems?",
+    "output": "yum reinstall httpd"
+  },
+  {
+    "instruction": "How do I list transaction history for dnf on Fedora-based systems?",
+    "output": "dnf history list"
+  },
+  {
+    "instruction": "How do I send 'Test message' to the system log?",
+    "output": "logger 'Test message'"
+  },
+  {
+    "instruction": "How do I display the current run-level of the system?",
+    "output": "who -r"
+  },
+  {
+    "instruction": "How do I set the full name for user in the GECOS field?",
+    "output": "chfn -f 'Full Name' user"
+  },
+  {
+    "instruction": "How do I switch the current session to the specified group?",
+    "output": "newgrp group"
+  },
+  {
+    "instruction": "How do I schedule a command to run in one hour?",
+    "output": "at now + 1 hour"
+  },
+  {
+    "instruction": "How do I list the current user's cron jobs?",
+    "output": "crontab -l"
+  },
+  {
+    "instruction": "How do I run command immune to hangups, with output to nohup.out?",
+    "output": "nohup command &"
+  },
+  {
+    "instruction": "How do I display logs for the nginx service?",
+    "output": "journalctl -u nginx"
+  },
+  {
+    "instruction": "How do I Determines the file type of file.bin?",
+    "output": "file file.bin"
+  },
+  {
+    "instruction": "How do I create a named pipe called pipe?",
+    "output": "mkfifo pipe"
+  },
+  {
+    "instruction": "How do I resize file.txt to exactly 1 megabyte?",
+    "output": "truncate -s 1M file.txt"
+  },
+  {
+    "instruction": "How do I split largefile.txt into 1MB chunks?",
+    "output": "split -b 1M largefile.txt"
+  },
+  {
+    "instruction": "How do I Reformats file.txt to wrap lines at 80 characters?",
+    "output": "fmt -w 80 file.txt"
+  },
+  {
+    "instruction": "How do I Numbers the lines of file.txt?",
+    "output": "nl file.txt"
+  },
+  {
+    "instruction": "How do I count the number of lines in file.txt?",
+    "output": "wc -l file.txt"
+  },
+  {
+    "instruction": "How do I display file.txt in reverse line order?",
+    "output": "tac file.txt"
+  },
+  {
+    "instruction": "How do I display the status and settings of the eth0 interface?",
+    "output": "ethtool eth0"
+  },
+  {
+    "instruction": "How do I list configured IP set for firewall rules?",
+    "output": "ipset list"
+  },
+  {
+    "instruction": "How do I list firewall rules with verbose output?",
+    "output": "iptables -L -v"
+  },
+  {
+    "instruction": "How do I set the maximum number of open file descriptors to 1024?",
+    "output": "ulimit -n 1024"
+  },
+  {
+    "instruction": "How do I list SELinux file context mappings?",
+    "output": "semanage fcontext -l"
+  },
+  {
+    "instruction": "How do I restore default SELinux contexts for /var/log?",
+    "output": "restorecon -v /var/log"
+  },
+  {
+    "instruction": "How do I list all SELinux boolean settings?",
+    "output": "getsebool -a"
+  },
+  {
+    "instruction": "How do I run 'date' every second, updating the output?",
+    "output": "watch -n 1 'date'"
+  },
+  {
+    "instruction": "How do I measure the execution time of command?",
+    "output": "time command"
+  },
+  {
+    "instruction": "How do I schedule commands to run when system load is low?",
+    "output": "batch"
+  },
+  {
+    "instruction": "How do I Marks job 1 to continue running after terminal exit?",
+    "output": "disown -h %1"
+  },
+  {
+    "instruction": "How do I list background jobs with PIDs?",
+    "output": "jobs -l"
+  },
+  {
+    "instruction": "How do I Brings job 1 to the foreground?",
+    "output": "fg %1"
+  },
+  {
+    "instruction": "How do I report disk I/O statistics?",
+    "output": "vmstat -d"
+  },
+  {
+    "instruction": "How do I display BIOS information?",
+    "output": "dmidecode -t bios"
+  },
+  {
+    "instruction": "How do I remove columns 1 through 5 from file.txt?",
+    "output": "colrm 1 5 < file.txt"
+  },
+  {
+    "instruction": "How do I convert tabs to spaces in file.txt?",
+    "output": "expand file.txt"
+  },
+  {
+    "instruction": "How do I convert spaces to tabs in file.txt?",
+    "output": "unexpand file.txt"
+  },
+  {
+    "instruction": "How do I extract the first field from comma-separated file.csv?",
+    "output": "cut -d ',' -f 1 file.csv"
+  },
+  {
+    "instruction": "How do I read from stdin and writes to file.txt and stdout?",
+    "output": "tee file.txt"
+  },
+  {
+    "instruction": "How do I overwrite and deletes file.txt securely?",
+    "output": "shred -u file.txt"
+  },
+  {
+    "instruction": "How do I create a character device node /dev/mynode with major 1, minor 3?",
+    "output": "mknod /dev/mynode c 1 3"
+  },
+  {
+    "instruction": "How do I list processes accessing /var/log/syslog?",
+    "output": "fuser -v /var/log/syslog"
+  },
+  {
+    "instruction": "How do I Traces library calls made by the process with PID 1234?",
+    "output": "ltrace -p 1234"
+  },
+  {
+    "instruction": "How do I Traces system calls made by the process with PID 1234?",
+    "output": "strace -p 1234"
+  },
+  {
+    "instruction": "How do I Combines ping and traceroute to monitor network performance to google.com?",
+    "output": "mtr google.com"
+  },
+  {
+    "instruction": "How do I scan open ports on localhost?",
+    "output": "nmap localhost"
+  },
+  {
+    "instruction": "How do I perform a DNS lookup for google.com?",
+    "output": "host google.com"
+  },
+  {
+    "instruction": "How do I change the login shell for user to zsh?",
+    "output": "chsh -s /bin/zsh user"
+  },
+  {
+    "instruction": "How do I list all group names for user?",
+    "output": "id -Gn user"
+  },
+  {
+    "instruction": "How do I display passwd database entry for user?",
+    "output": "getent passwd user"
+  },
+  {
+    "instruction": "How do I Formats file.txt for printing without headers or footers?",
+    "output": "pr -t file.txt"
+  },
+  {
+    "instruction": "How do I Wraps lines in file.txt to 80 characters?",
+    "output": "fold -w 80 file.txt"
+  },
+  {
+    "instruction": "How do I Sorts the lines of file.txt alphabetically?",
+    "output": "sort file.txt"
+  },
+  {
+    "instruction": "How do I remove duplicate consecutive lines from file.txt?",
+    "output": "uniq file.txt"
+  },
+  {
+    "instruction": "How do I Compares two sorted files, showing unique and common lines?",
+    "output": "comm file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I show disk usage for ext4 filesystems only?",
+    "output": "df -t ext4"
+  },
+  {
+    "instruction": "How do I display memory usage with wide format?",
+    "output": "free -w"
+  },
+  {
+    "instruction": "How do I display CPU information in a parseable format?",
+    "output": "lscpu -b"
+  },
+  {
+    "instruction": "How do I set SELinux context for /var/www to httpd_sys_content_t?",
+    "output": "chcon -t httpd_sys_content_t /var/www"
+  },
+  {
+    "instruction": "How do I Enables the SELinux boolean httpd_enable_homedirs persistently?",
+    "output": "setebool -P httpd_enable_homedirs on"
+  },
+  {
+    "instruction": "How do I remove the immutable attribute from file.txt?",
+    "output": "chattr -i file.txt"
+  },
+  {
+    "instruction": "How do I copy script.sh to /usr/local/bin with 755 permissions?",
+    "output": "install -m 755 script.sh /usr/local/bin"
+  },
+  {
+    "instruction": "How do I send ARP requests to 192.168.1.1 to resolve MAC address?",
+    "output": "arping 192.168.1.1"
+  },
+  {
+    "instruction": "How do I display the ARP table with neighbor entries?",
+    "output": "ip neighbor show"
+  },
+  {
+    "instruction": "How do I list pending jobs scheduled with at?",
+    "output": "atq"
+  },
+  {
+    "instruction": "How do I Resumes job 1 in the background?",
+    "output": "bg %1"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano at line 10?",
+    "output": "nano +10 config.conf"
+  },
+  {
+    "instruction": "How do I open file.txt in Vim without loading any configuration?",
+    "output": "vim -u NONE file.txt"
+  },
+  {
+    "instruction": "How do I run Emacs in batch mode to execute script.el?",
+    "output": "emacs --batch -l script.el"
+  },
+  {
+    "instruction": "How do I count the number of words in file.txt?",
+    "output": "wc -w file.txt"
+  },
+  {
+    "instruction": "How do I count the number of bytes in file.txt?",
+    "output": "wc -c file.txt"
+  },
+  {
+    "instruction": "How do I Merges lines of file1.txt and file2.txt side by side?",
+    "output": "paste file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I Joins lines of two sorted files on a common field?",
+    "output": "join file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I list block devices with name, size, and type columns?",
+    "output": "lsblk -o NAME,SIZE,TYPE"
+  },
+  {
+    "instruction": "How do I list logged-in users with column headers?",
+    "output": "who -H"
+  },
+  {
+    "instruction": "How do I run command with a 10-second timeout?",
+    "output": "timeout 10s command"
+  },
+  {
+    "instruction": "How do I Rotates the directory stack to make the third entry the current directory?",
+    "output": "pushd +2"
+  },
+  {
+    "instruction": "How do I Clears the directory stack?",
+    "output": "dirs -c"
+  },
+  {
+    "instruction": "How do I change to the physical directory resolved from /path/to/symlink?",
+    "output": "cd -P /path/to/symlink"
+  },
+  {
+    "instruction": "How do I list mounted ext4 filesystems with details?",
+    "output": "findmnt -t ext4"
+  },
+  {
+    "instruction": "How do I list Linux namespaces (e.g., PID, network, user)?",
+    "output": "lsns"
+  },
+  {
+    "instruction": "How do I display all kernel parameters and their values?",
+    "output": "sysctl -a"
+  },
+  {
+    "instruction": "How do I list current audit rules for system monitoring?",
+    "output": "auditctl -l"
+  },
+  {
+    "instruction": "How do I Searches audit logs for login-related events?",
+    "output": "ausearch -m LOGIN"
+  },
+  {
+    "instruction": "How do I list block devices with UUIDs and filesystem types?",
+    "output": "blkid -o list"
+  },
+  {
+    "instruction": "How do I display I/O usage by processes, showing only active ones?",
+    "output": "iotop -o"
+  },
+  {
+    "instruction": "How do I Recursively grants user read and execute permissions on /data using ACL?",
+    "output": "setfacl -R -m u:user:rx /data"
+  },
+  {
+    "instruction": "How do I remove ACL entries for user from file.txt?",
+    "output": "setfacl -x u:user file.txt"
+  },
+  {
+    "instruction": "How do I Recursively set SELinux context for /home/user to user_home_t?",
+    "output": "chcon -R -t user_home_t /home/user"
+  },
+  {
+    "instruction": "How do I list SELinux user mappings?",
+    "output": "semanage user -l"
+  },
+  {
+    "instruction": "How do I display extended attributes for file.txt?",
+    "output": "getfattr -d file.txt"
+  },
+  {
+    "instruction": "How do I set a user-defined extended attribute 'user.comment' to 'Test' on file.txt?",
+    "output": "setfattr -n user.comment -v 'Test' file.txt"
+  },
+  {
+    "instruction": "How do I set the append-only attribute on file.txt, allowing only appending?",
+    "output": "chattr +a file.txt"
+  },
+  {
+    "instruction": "How do I Backs up the /dev/sda1 filesystem to backup.tar?",
+    "output": "dump -f backup.tar /dev/sda1"
+  },
+  {
+    "instruction": "How do I restore the filesystem from backup.tar?",
+    "output": "restore -rf backup.tar"
+  },
+  {
+    "instruction": "How do I set a 1GB soft and 2GB hard disk quota for user on /mnt?",
+    "output": "xfs_quota -x -c 'limit bsoft=1g bhard=2g user' /mnt"
+  },
+  {
+    "instruction": "How do I create a tar archive of /data, preserving ACLs and extended attributes?",
+    "output": "tar --acls --xattrs -cpf backup.tar /data"
+  },
+  {
+    "instruction": "How do I create a 100MB file.img filled with zeros?",
+    "output": "dd if=/dev/zero of=file.img bs=1M count=100"
+  },
+  {
+    "instruction": "How do I Compares two compressed files without decompressing?",
+    "output": "zcmp file1.gz file2.gz"
+  },
+  {
+    "instruction": "How do I show differences between two compressed files?",
+    "output": "zdiff file1.gz file2.gz"
+  },
+  {
+    "instruction": "How do I convert a hexdump in hexdump.txt back to binary file.bin?",
+    "output": "xxd -r -p hexdump.txt file.bin"
+  },
+  {
+    "instruction": "How do I encode file.bin to base64 and outputs to stdout?",
+    "output": "base64 file.bin"
+  },
+  {
+    "instruction": "How do I decode base64 content from encoded.txt to stdout?",
+    "output": "base64 -d encoded.txt"
+  },
+  {
+    "instruction": "How do I dump file.bin in hexadecimal format, 4 bytes per group?",
+    "output": "od -t x4 file.bin"
+  },
+  {
+    "instruction": "How do I view the compressed logfile.gz with pagination, similar to more?",
+    "output": "zmore logfile.gz"
+  },
+  {
+    "instruction": "How do I capture HTTP traffic on port 80 via eth0?",
+    "output": "tcpdump -i eth0 port 80"
+  },
+  {
+    "instruction": "How do I display all active nftables firewall rules?",
+    "output": "nft list ruleset"
+  },
+  {
+    "instruction": "How do I monitor network traffic on eth0 interactively?",
+    "output": "iptraf-ng -i eth0"
+  },
+  {
+    "instruction": "How do I send TCP SYN packets to 192.168.1.1 for network probing?",
+    "output": "hping3 -S 192.168.1.1"
+  },
+  {
+    "instruction": "How do I scan port 22 on 192.168.1.1 for connectivity?",
+    "output": "netcat -zv 192.168.1.1 22"
+  },
+  {
+    "instruction": "How do I create an IP set named myset for firewall rules?",
+    "output": "ipset create myset hash:ip"
+  },
+  {
+    "instruction": "How do I capture 10 packets on eth0 using Wireshark's terminal interface?",
+    "output": "tshark -i eth0 -c 10"
+  },
+  {
+    "instruction": "How do I Generates one secure 16-character random password?",
+    "output": "pwgen -s 16 1"
+  },
+  {
+    "instruction": "How do I create a group named newgroup with GID 2000?",
+    "output": "addgroup --gid 2000 newgroup"
+  },
+  {
+    "instruction": "How do I set the account expiration date for user to Dec 31, 2025?",
+    "output": "usermod -e 2025-12-31 user"
+  },
+  {
+    "instruction": "How do I display last login information for all users?",
+    "output": "lastlog"
+  },
+  {
+    "instruction": "How do I display failed login attempts for user?",
+    "output": "faillog -u user"
+  },
+  {
+    "instruction": "How do I list cron jobs for user?",
+    "output": "crontab -u user -l"
+  },
+  {
+    "instruction": "How do I show the status of the nginx service?",
+    "output": "systemctl status nginx"
+  },
+  {
+    "instruction": "How do I report task switching activity every second for 3 iterations?",
+    "output": "pidstat -w 1 3"
+  },
+  {
+    "instruction": "How do I list control groups in the system?",
+    "output": "lscgroup"
+  },
+  {
+    "instruction": "How do I run command with idle I/O priority?",
+    "output": "ionice -c3 command"
+  },
+  {
+    "instruction": "How do I Binds process with PID 1234 to CPUs 0-3?",
+    "output": "taskset -cp 0-3 1234"
+  },
+  {
+    "instruction": "How do I display system logs since the last boot?",
+    "output": "journalctl -b"
+  },
+  {
+    "instruction": "How do I list partition tables for all disks?",
+    "output": "parted -l"
+  },
+  {
+    "instruction": "How do I find which package provides /usr/bin/nginx on Debian-based systems?",
+    "output": "apt-file search /usr/bin/nginx"
+  },
+  {
+    "instruction": "How do I list dependencies for the httpd package on CentOS/RHEL?",
+    "output": "yum deplist httpd"
+  },
+  {
+    "instruction": "How do I list available modules on Fedora-based systems?",
+    "output": "dnf module list"
+  },
+  {
+    "instruction": "How do I create a hexadecimal dump of file.bin?",
+    "output": "xxd file.bin"
+  },
+  {
+    "instruction": "How do I Synchronize /src to /dst with archive mode and verbose output?",
+    "output": "rsync -av /src /dst"
+  },
+  {
+    "instruction": "How do I display inode details for /file.txt on /dev/sda1 using debugfs?",
+    "output": "debugfs -R 'stat /file.txt' /dev/sda1"
+  },
+  {
+    "instruction": "How do I check the ext4 filesystem on /dev/sda1 without making change?",
+    "output": "fsck.ext4 -n /dev/sda1"
+  },
+  {
+    "instruction": "How do I monitor /var/log for filesystem events?",
+    "output": "inotifywait -m /var/log"
+  },
+  {
+    "instruction": "How do I list open files for the process with PID 1234?",
+    "output": "lsof -p 1234"
+  },
+  {
+    "instruction": "How do I display the memory map for the process with PID 1234?",
+    "output": "pmap -x 1234"
+  },
+  {
+    "instruction": "How do I display TCP protocol statistics?",
+    "output": "netstat -s | grep Tcp"
+  },
+  {
+    "instruction": "How do I show network interface statistics?",
+    "output": "ip -s link"
+  },
+  {
+    "instruction": "How do I list SELinux port mappings?",
+    "output": "semanage port -l"
+  },
+  {
+    "instruction": "How do I add an audit rule to monitor write and attribute change to /etc/passwd?",
+    "output": "auditctl -a always,exit -F path=/etc/passwd -F perm=wa"
+  },
+  {
+    "instruction": "How do I run sysdig to display network connection statistics?",
+    "output": "sysdig -c netstat"
+  },
+  {
+    "instruction": "How do I monitor CPU, disk, network, and system activity in real-time?",
+    "output": "dstat -cdngy"
+  },
+  {
+    "instruction": "How do I monitor filesystem access events in real-time?",
+    "output": "fatrace"
+  },
+  {
+    "instruction": "How do I open an encrypted LUKS device /dev/sdb1 as 'crypt'?",
+    "output": "cryptsetup luksOpen /dev/sdb1 crypt"
+  },
+  {
+    "instruction": "How do I check /dev/sdb for bad blocks with verbose output?",
+    "output": "badblocks -v /dev/sdb"
+  },
+  {
+    "instruction": "How do I Traces both library and system calls for the process with PID 1234?",
+    "output": "ltrace -S -p 1234"
+  },
+  {
+    "instruction": "How do I summarize system call usage for the process with PID 1234?",
+    "output": "strace -c -p 1234"
+  },
+  {
+    "instruction": "How do I attach the GNU Debugger to the process with PID 1234?",
+    "output": "gdb --pid 1234"
+  },
+  {
+    "instruction": "How do I Collects performance statistics for the process with PID 1234?",
+    "output": "perf stat -p 1234"
+  },
+  {
+    "instruction": "How do I scan 192.168.1.1 for open ports and service versions?",
+    "output": "nmap -sV 192.168.1.1"
+  },
+  {
+    "instruction": "How do I initialize etckeeper to track /etc in a version control system?",
+    "output": "etckeeper init"
+  },
+  {
+    "instruction": "How do I commit change in /etc with the message 'Updated config'?",
+    "output": "etckeeper commit 'Updated config'"
+  },
+  {
+    "instruction": "How do I list logged-in users with message status?",
+    "output": "who -T"
+  },
+  {
+    "instruction": "How do I create newuser with a home directory and zsh as the default shell?",
+    "output": "useradd -m -s /bin/zsh newuser"
+  },
+  {
+    "instruction": "How do I display the sudo group entry from the group database?",
+    "output": "getent group sudo"
+  },
+  {
+    "instruction": "How do I verify the integrity of password files?",
+    "output": "pwck"
+  },
+  {
+    "instruction": "How do I verify the integrity of group files?",
+    "output": "grpck"
+  },
+  {
+    "instruction": "How do I filter file.txt to remove backspaces and their preceding characters?",
+    "output": "col -b < file.txt"
+  },
+  {
+    "instruction": "How do I perform a topological sort on the input from file.txt?",
+    "output": "tsort file.txt"
+  },
+  {
+    "instruction": "How do I display lines in file.txt starting with 'word'?",
+    "output": "look word file.txt"
+  },
+  {
+    "instruction": "How do I append stdin to file.txt and outputs to stdout?",
+    "output": "tee -a file.txt"
+  },
+  {
+    "instruction": "How do I split file.txt into files with 1000 lines each, named prefix-aa, prefix-ab, etc?",
+    "output": "split -l 1000 file.txt prefix-"
+  },
+  {
+    "instruction": "How do I split file.txt into files at lines starting with '#'?",
+    "output": "csplit file.txt '/^#/' {*}"
+  },
+  {
+    "instruction": "How do I display the unit file for the nginx service?",
+    "output": "systemctl cat nginx"
+  },
+  {
+    "instruction": "How do I force log rotation based on /etc/logrotate.conf?",
+    "output": "logrotate -f /etc/logrotate.conf"
+  },
+  {
+    "instruction": "How do I display CPU information in a parseable format without comments?",
+    "output": "lscpu -p"
+  },
+  {
+    "instruction": "How do I display NUMA node information?",
+    "output": "numactl --hardware"
+  },
+  {
+    "instruction": "How do I list System V semaphore arrays?",
+    "output": "ipcs -s"
+  },
+  {
+    "instruction": "How do I list System V message queues?",
+    "output": "ipcs -q"
+  },
+  {
+    "instruction": "How do I display detailed processor information?",
+    "output": "dmidecode -t processor"
+  },
+  {
+    "instruction": "How do I list SELinux login mappings?",
+    "output": "semanage login -l"
+  },
+  {
+    "instruction": "How do I list SELinux booleans with descriptions?",
+    "output": "semanage boolean -l"
+  },
+  {
+    "instruction": "How do I listen for incoming connections on port 12345?",
+    "output": "netcat -l 12345"
+  },
+  {
+    "instruction": "How do I run 'netstat -tuln' every 2 seconds, highlighting change?",
+    "output": "watch -d 'netstat -tuln'"
+  },
+  {
+    "instruction": "How do I open file.txt in Emacs non-interactively via Lisp expression?",
+    "output": "emacs --eval '(find-file \"file.txt\")'"
+  },
+  {
+    "instruction": "How do I run Vim in silent mode to execute script.vim?",
+    "output": "vim -es -S script.vim"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano with tabs set to 4 spaces?",
+    "output": "nano -T 4 config.conf"
+  },
+  {
+    "instruction": "How do I change to the /proc directory of the current shell process?",
+    "output": "cd /proc/$$"
+  },
+  {
+    "instruction": "How do I display directory stack one entry per line?",
+    "output": "dirs -p"
+  },
+  {
+    "instruction": "How do I add /tmp to directory stack without changing current directory?",
+    "output": "pushd -n /tmp"
+  },
+  {
+    "instruction": "How do I change to the shared memory filesystem directory?",
+    "output": "cd /dev/shm"
+  },
+  {
+    "instruction": "How do I flush filesystem buffers to disk?",
+    "output": "sync"
+  },
+  {
+    "instruction": "How do I preallocate a 1GB file.img without writing zeros?",
+    "output": "fallocate -l 1G file.img"
+  },
+  {
+    "instruction": "How do I display XFS filesystem geometry for /dev/sda1?",
+    "output": "xfs_info /dev/sda1"
+  },
+  {
+    "instruction": "How do I create a Btrfs filesystem on /dev/sdb1?",
+    "output": "mkfs.btrfs /dev/sdb1"
+  },
+  {
+    "instruction": "How do I list all Btrfs filesystems and their devices?",
+    "output": "btrfs filesystem show"
+  },
+  {
+    "instruction": "How do I set the secure deletion attribute on file.txt, zeroing data on delete?",
+    "output": "chattr +s file.txt"
+  },
+  {
+    "instruction": "How do I set I/O scheduling class to best-effort for process with PID 1234?",
+    "output": "ionice -c2 -p 1234"
+  },
+  {
+    "instruction": "How do I set the open file limit to 1024 for process with PID 1234?",
+    "output": "prlimit --pid 1234 --nofile=1024"
+  },
+  {
+    "instruction": "How do I return PIDs of running nginx processes?",
+    "output": "pidof nginx"
+  },
+  {
+    "instruction": "How do I run htop filtered to show only processes owned by user?",
+    "output": "htop -u user"
+  },
+  {
+    "instruction": "How do I Traces file open system calls using eBPF, printing process and file names?",
+    "output": "bpftrace -e 'tracepoint:syscalls:sys_enter_openat { printf(\"%s opened %s\n\", comm, str(args->filename)); }'"
+  },
+  {
+    "instruction": "How do I list processes with open TCP listening sockets?",
+    "output": "lsof -iTCP -sTCP:LISTEN"
+  },
+  {
+    "instruction": "How do I monitor network interface and address change in real-time?",
+    "output": "ip monitor"
+  },
+  {
+    "instruction": "How do I list sockets with options, suppressing header output?",
+    "output": "ss -H -o"
+  },
+  {
+    "instruction": "How do I set the MTU of eth0 to 9000 for jumbo frames?",
+    "output": "ip link set eth0 mtu 9000"
+  },
+  {
+    "instruction": "How do I send TCP probes to port 80 on 192.168.1.1 for network testing?",
+    "output": "nping --tcp -p 80 192.168.1.1"
+  },
+  {
+    "instruction": "How do I add IP 192.168.1.100 to the IP set myset?",
+    "output": "ipset add myset 192.168.1.100"
+  },
+  {
+    "instruction": "How do I capture and saves TCP streams on port 80 via eth0?",
+    "output": "tcpflow -i eth0 port 80"
+  },
+  {
+    "instruction": "How do I capture and display HTTP packets on port 80?",
+    "output": "ngrep -q 'HTTP' port 80"
+  },
+  {
+    "instruction": "How do I monitor bandwidth usage on eth0 interactively?",
+    "output": "bmon -i eth0"
+  },
+  {
+    "instruction": "How do I display real-time bandwidth usage by connection on eth0?",
+    "output": "iftop -i eth0"
+  },
+  {
+    "instruction": "How do I Formats file.bin as a single line of hex bytes?",
+    "output": "hexdump -ve '/1 \"%02x\"' file.bin"
+  },
+  {
+    "instruction": "How do I extract strings of 10 or more characters from /bin/ls?",
+    "output": "strings -n 10 /bin/ls"
+  },
+  {
+    "instruction": "How do I Reverse the characters in each line of file.txt?",
+    "output": "rev file.txt"
+  },
+  {
+    "instruction": "How do I split file.txt at lines starting with '#' into numbered files, skipping empty files?",
+    "output": "csplit -z file.txt '/^#/' {*}"
+  },
+  {
+    "instruction": "How do I Recompress logfile.gz from gzip to bzip2 format?",
+    "output": "znew logfile.gz"
+  },
+  {
+    "instruction": "How do I Repairs an XFS filesystem on /dev/sda1?",
+    "output": "xfs_repair /dev/sda1"
+  },
+  {
+    "instruction": "How do I create a Btrfs subvolume at /mnt/subvol?",
+    "output": "btrfs subvolume create /mnt/subvol"
+  },
+  {
+    "instruction": "How do I Starts a scrub to check data integrity on the Btrfs filesystem at /mnt?",
+    "output": "btrfs scrub start /mnt"
+  },
+  {
+    "instruction": "How do I check the ext2/ext3/ext4 filesystem on /dev/sda1 without modifying it?",
+    "output": "e2fsck -n /dev/sda1"
+  },
+  {
+    "instruction": "How do I display superblock information for the ext2/ext3/ext4 filesystem on /dev/sda1?",
+    "output": "tune2fs -l /dev/sda1"
+  },
+  {
+    "instruction": "How do I run performance benchmarks for encryption algorithms?",
+    "output": "cryptsetup benchmark"
+  },
+  {
+    "instruction": "How do I set default ACL for user with rwx permissions on new files in /data?",
+    "output": "setfacl -d -m u:user:rwx /data"
+  },
+  {
+    "instruction": "How do I add an SELinux file context for /var/www and its contents?",
+    "output": "semanage fcontext -a -t httpd_sys_content_t '/var/www(/.*)?'"
+  },
+  {
+    "instruction": "How do I Recursively set the undelete attribute on /backup for data recovery?",
+    "output": "chattr -R +u /backup"
+  },
+  {
+    "instruction": "How do I display the SELinux security context attribute of file.txt?",
+    "output": "getfattr -n security.selinux file.txt"
+  },
+  {
+    "instruction": "How do I add TCP port 8080 to SELinux http_port_t for web services?",
+    "output": "semanage port -a -t http_port_t -p tcp 8080"
+  },
+  {
+    "instruction": "How do I display the status of AppArmor profiles and processes?",
+    "output": "aa-status"
+  },
+  {
+    "instruction": "How do I Reloads the AppArmor profile for nginx?",
+    "output": "apparmor_parser -R /etc/apparmor.d/usr.sbin.nginx"
+  },
+  {
+    "instruction": "How do I dump the system call table for audit purposes?",
+    "output": "ausyscall --dump"
+  },
+  {
+    "instruction": "How do I list information about IPC facilities (shared memory, semaphores, queues)?",
+    "output": "lsipc"
+  },
+  {
+    "instruction": "How do I display real-time kernel slab cache usage?",
+    "output": "slabtop"
+  },
+  {
+    "instruction": "How do I display information about user accounts and their login history?",
+    "output": "lslogins"
+  },
+  {
+    "instruction": "How do I convert passwd entries to use shadow passwords?",
+    "output": "pwconv"
+  },
+  {
+    "instruction": "How do I convert group entries to use shadow groups?",
+    "output": "grpconv"
+  },
+  {
+    "instruction": "How do I set the maximum password age for user to 90 days?",
+    "output": "chage -M 90 user"
+  },
+  {
+    "instruction": "How do I display system login, logout, and other events like reboots?",
+    "output": "last -x"
+  },
+  {
+    "instruction": "How do I display current authentication configuration?",
+    "output": "authconfig --test"
+  },
+  {
+    "instruction": "How do I Invalidates the passwd cache in the Name Service Cache Daemon?",
+    "output": "nscd -i passwd"
+  },
+  {
+    "instruction": "How do I remove the scheduled job with ID 1 from the at queue?",
+    "output": "atrm 1"
+  },
+  {
+    "instruction": "How do I display resource usage by control groups?",
+    "output": "systemd-cgtop"
+  },
+  {
+    "instruction": "How do I report network device statistics every second for 3 iterations?",
+    "output": "sar -n DEV 1 3"
+  },
+  {
+    "instruction": "How do I display detailed statistics for the eth0 interface?",
+    "output": "ethtool -S eth0"
+  },
+  {
+    "instruction": "How do I display policy routing rules?",
+    "output": "ip rule show"
+  },
+  {
+    "instruction": "How do I list IPsec security associations?",
+    "output": "ip xfrm state"
+  },
+  {
+    "instruction": "How do I display multicast routing table?",
+    "output": "ip mroute show"
+  },
+  {
+    "instruction": "How do I list traffic control queueing disciplines?",
+    "output": "tc qdisc show"
+  },
+  {
+    "instruction": "How do I display bridge interfaces and their states?",
+    "output": "bridge link show"
+  },
+  {
+    "instruction": "How do I list network namespaces?",
+    "output": "ip netns list"
+  },
+  {
+    "instruction": "How do I run ip addr command within the ns1 network namespace?",
+    "output": "ip netns exec ns1 ip addr"
+  },
+  {
+    "instruction": "How do I Establishes an SSL connection to 192.168.1.1 on port 443?",
+    "output": "ncat --ssl 192.168.1.1 443"
+  },
+  {
+    "instruction": "How do I compress file.txt using Zstandard algorithm?",
+    "output": "zstd -z file.txt"
+  },
+  {
+    "instruction": "How do I display the contents of a Zstandard-compressed file.txt.zst?",
+    "output": "zstdcat file.txt.zst"
+  },
+  {
+    "instruction": "How do I compress file.txt using XZ compression?",
+    "output": "xz -z file.txt"
+  },
+  {
+    "instruction": "How do I display the contents of an XZ-compressed file.txt.xz?",
+    "output": "xzcat file.txt.xz"
+  },
+  {
+    "instruction": "How do I compress file.txt using Lzip compression?",
+    "output": "lzip -z file.txt"
+  },
+  {
+    "instruction": "How do I display the contents of an Lzip-compressed file.txt.lz?",
+    "output": "lzcat file.txt.lz"
+  },
+  {
+    "instruction": "How do I open file.bin in an interactive hexadecimal editor?",
+    "output": "hexedit file.bin"
+  },
+  {
+    "instruction": "How do I open config.conf in Nano with 80-column line wrapping?",
+    "output": "nano -r 80 config.conf"
+  },
+  {
+    "instruction": "How do I open file.txt in Vim in read-only mode?",
+    "output": "vim -R file.txt"
+  },
+  {
+    "instruction": "How do I open file.txt in Emacs with minimal configuration?",
+    "output": "emacs -Q file.txt"
+  },
+  {
+    "instruction": "How do I dump the configuration of APT on Debian-based systems?",
+    "output": "apt-config dump"
+  },
+  {
+    "instruction": "How do I display details of transaction ID 1 in yum history on CentOS/RHEL?",
+    "output": "yum history info 1"
+  },
+  {
+    "instruction": "How do I list dependencies required by the python3 package on Fedora-based systems?",
+    "output": "dnf repoquery --requires python3"
+  },
+  {
+    "instruction": "How do I Identifies which package owns /usr/bin/nginx?",
+    "output": "rpm -qf /usr/bin/nginx"
+  },
+  {
+    "instruction": "How do I verify the integrity of files in the nginx package?",
+    "output": "rpm -V nginx"
+  },
+  {
+    "instruction": "How do I check the integrity of files in the nginx package on Debian-based systems?",
+    "output": "debsums -c nginx"
+  },
+  {
+    "instruction": "How do I list partitions on /dev/sda with size and type?",
+    "output": "partx -s /dev/sda"
+  },
+  {
+    "instruction": "How do I list block devices with full device paths?",
+    "output": "lsblk -p"
+  },
+  {
+    "instruction": "How do I display CPU information in JSON format?",
+    "output": "lscpu -J"
+  },
+  {
+    "instruction": "How do I display memory usage in bytes?",
+    "output": "free -b"
+  },
+  {
+    "instruction": "How do I display the hardware platform?",
+    "output": "uname -i"
+  },
+  {
+    "instruction": "How do I report virtual memory statistics in megabytes?",
+    "output": "vmstat -SM"
+  },
+  {
+    "instruction": "How do I display I/O statistics in megabytes per second?",
+    "output": "iostat -m"
+  },
+  {
+    "instruction": "How do I list file locks held by processes?",
+    "output": "lslocks"
+  },
+  {
+    "instruction": "How do I list memory ranges and their online status?",
+    "output": "lsmem"
+  },
+  {
+    "instruction": "How do I list SCSI devices and their attributes?",
+    "output": "lsscsi"
+  },
+  {
+    "instruction": "How do I display a concise hardware summary?",
+    "output": "lshw -short"
+  },
+  {
+    "instruction": "How do I list device mapper devices?",
+    "output": "dmsetup ls"
+  },
+  {
+    "instruction": "How do I Recursively list extended attributes for files in /data?",
+    "output": "lsattr -R /data"
+  },
+  {
+    "instruction": "How do I find setuid files on the root filesystem, ignoring other mounts?",
+    "output": "find / -xdev -perm /u+s"
+  },
+  {
+    "instruction": "How do I Recursively remove setuid permissions from files in /data?",
+    "output": "chmod -R u-s /data"
+  },
+  {
+    "instruction": "How do I Recursively change ownership from root to user for files in /data?",
+    "output": "chown -R --from=root user /data"
+  },
+  {
+    "instruction": "How do I Recursively remove all ACLs from files in /data?",
+    "output": "setfacl -R -b /data"
+  },
+  {
+    "instruction": "How do I set the SELinux user to system_u for file.txt?",
+    "output": "chcon -u system_u file.txt"
+  },
+  {
+    "instruction": "How do I Generates a C-style include file with a hex array from file.txt?",
+    "output": "xxd -i file.txt"
+  },
+  {
+    "instruction": "How do I dump file.bin as decimal 4-byte integers with decimal offset?",
+    "output": "od -A d -t d4 file.bin"
+  },
+  {
+    "instruction": "How do I display the first 16 bytes of file.bin in hex and ASCII?",
+    "output": "hexdump -C -n 16 file.bin"
+  },
+  {
+    "instruction": "How do I Numbers lines in file.txt with 2-digit width and ': ' separator?",
+    "output": "nl -w 2 -s ': ' file.txt"
+  },
+  {
+    "instruction": "How do I convert tabs to 4 spaces in file.txt?",
+    "output": "expand -t 4 file.txt"
+  },
+  {
+    "instruction": "How do I convert 4-space sequences to tabs in file.txt?",
+    "output": "unexpand -t 4 file.txt"
+  },
+  {
+    "instruction": "How do I Reformats file.txt, splitting long lines without joining short ones?",
+    "output": "fmt -s file.txt"
+  },
+  {
+    "instruction": "How do I Formats file.txt for printing with double spacing?",
+    "output": "pr -d file.txt"
+  },
+  {
+    "instruction": "How do I Wraps file.txt at 80 characters, breaking at spaces?",
+    "output": "fold -s -w 80 file.txt"
+  },
+  {
+    "instruction": "How do I extract the first 10 characters of each line in file.txt?",
+    "output": "cut -c 1-10 file.txt"
+  },
+  {
+    "instruction": "How do I Randomly shuffles the lines of file.txt?",
+    "output": "sort -R file.txt"
+  },
+  {
+    "instruction": "How do I count occurrences of each unique line in file.txt?",
+    "output": "uniq -c file.txt"
+  },
+  {
+    "instruction": "How do I show lines common to both sorted files file1.txt and file2.txt?",
+    "output": "comm -12 file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I Joins all lines of file.txt into a single line with tabs?",
+    "output": "paste -s file.txt"
+  },
+  {
+    "instruction": "How do I Joins two sorted files on a common field using comma as delimiter?",
+    "output": "join -t ',' file1.txt file2.txt"
+  },
+  {
+    "instruction": "How do I show disk usage for the Btrfs filesystem at /mnt?",
+    "output": "btrfs filesystem df /mnt"
+  },
+  {
+    "instruction": "How do I open an interactive debugger for the XFS filesystem on /dev/sda1?",
+    "output": "xfs_db -r /dev/sda1"
+  },
+  {
+    "instruction": "How do I open debugfs in read-only mode for the ext2/ext3/ext4 filesystem on /dev/sda1?",
+    "output": "debugfs -c /dev/sda1"
+  },
+  {
+    "instruction": "How do I display superblock and block group information for /dev/sda1?",
+    "output": "dumpe2fs -h /dev/sda1"
+  },
+  {
+    "instruction": "How do I display driver information for the eth0 interface?",
+    "output": "ethtool -i eth0"
+  },
+  {
+    "instruction": "How do I display network interface addresses in JSON format?",
+    "output": "ip -j addr"
+  },
+  {
+    "instruction": "How do I list sockets with memory usage details?",
+    "output": "ss -M"
+  },
+  {
+    "instruction": "How do I capture packets on eth0, displaying both hex and ASCII?",
+    "output": "tcpdump -X -i eth0"
+  },
+  {
+    "instruction": "How do I monitor network traffic on eth0 with a graphical interface?",
+    "output": "nload eth0"
+  },
+  {
+    "instruction": "How do I Calculates network details for the 192.168.1.0/24 subnet?",
+    "output": "ipcalc 192.168.1.0/24"
+  },
+  {
+    "instruction": "How do I Records performance data for the process with PID 1234?",
+    "output": "perf record -p 1234"
+  },
+  {
+    "instruction": "How do I display performance analysis from the last perf record?",
+    "output": "perf report"
+  },
+  {
+    "instruction": "How do I list services and their startup times?",
+    "output": "systemd-analyze blame"
+  },
+  {
+    "instruction": "How do I show the critical chain of services affecting boot time?",
+    "output": "systemd-analyze critical-chain"
+  },
+  {
+    "instruction": "How do I show log messages with priority 3 (errors) since the last boot?",
+    "output": "journalctl -p 3 -b"
+  },
+  {
+    "instruction": "How do I list PID namespaces?",
+    "output": "lsns -t pid"
+  },
+  {
+    "instruction": "How do I list mounted filesystems with disk usage details?",
+    "output": "findmnt -D"
+  },
+  {
+    "instruction": "How do I list block devices in JSON format?",
+    "output": "lsblk -J"
+  },
+  {
+    "instruction": "How do I display system hardware information?",
+    "output": "dmidecode -t system"
+  },
+  {
+    "instruction": "How do I report disk I/O statistics for processes every second for 3 iterations?",
+    "output": "pidstat -d 1 3"
+  },
+  {
+    "instruction": "How do I list dependencies of the nginx service?",
+    "output": "systemctl list-dependencies nginx"
+  },
+  {
+    "instruction": "How do I check if the nginx service is enabled at boot?",
+    "output": "systemctl is-enabled nginx"
+  },
+  {
+    "instruction": "How do I list loaded eBPF programs?",
+    "output": "bpftool prog list"
+  },
+  {
+    "instruction": "How do I list loaded eBPF maps?",
+    "output": "bpftool map list"
+  },
+  {
+    "instruction": "How do I Records function traces for the process with PID 1234?",
+    "output": "trace-cmd record -p function -P 1234"
+  },
+  {
+    "instruction": "How do I display the trace data from the last trace-cmd record?",
+    "output": "trace-cmd report"
+  },
+  {
+    "instruction": "How do I Terminates processes accessing /var/log/syslog?",
+    "output": "fuser -k /var/log/syslog"
+  },
+  {
+    "instruction": "How do I list PIDs of processes using port 80?",
+    "output": "lsof -t -i :80"
+  },
+  {
+    "instruction": "How do I display the version control log for /etc managed by etckeeper?",
+    "output": "etckeeper vcs log"
+  },
+  {
+    "instruction": "How do I set up /dev/sdb1 as a swap partition?",
+    "output": "mkswap /dev/sdb1"
+  },
+  {
+    "instruction": "How do I Enables the swap partition on /dev/sdb1?",
+    "output": "swapon /dev/sdb1"
+  },
+  {
+    "instruction": "How do I Disables the swap partition on /dev/sdb1?",
+    "output": "swapoff /dev/sdb1"
+  },
+  {
+    "instruction": "How do I display metadata for the LUKS partition on /dev/sdb1?",
+    "output": "cryptsetup luksDump /dev/sdb1"
+  },
+  {
+    "instruction": "How do I set the AppArmor profile for nginx to complain mode?",
+    "output": "aa-complain /etc/apparmor.d/usr.sbin.nginx"
+  },
+  {
+    "instruction": "How do I set the AppArmor profile for nginx to enforce mode?",
+    "output": "aa-enforce /etc/apparmor.d/usr.sbin.nginx"
+  }
+]
