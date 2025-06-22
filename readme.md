@@ -105,6 +105,7 @@ User Input → Phi-2 Fine-tuned Model → Plan Generation → Command Extraction
 - **Improvement**: Implement sequential execution of multi-step plans
 - **Benefit**: Handle complex workflows requiring multiple commands
 
+```
 ---
 
 **Project Structure**:
@@ -161,3 +162,4 @@ User Input → Phi-2 Fine-tuned Model → Plan Generation → Command Extraction
 ├─ preprocessed.ipynb
 ├─ readme.md
 └─ Technical Task Instructions - AI_ML Intern.pdf
+```
